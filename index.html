@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,114 +8,112 @@
     <title>Hyrule Bazaar</title>
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body>
-    <!--Header-->
-    <header>
-        <div id="account">
-            <button type="button" name="Shopping Cart" id="cart">My Cart (0)</button>
-            <button type="button" name="Login" id="login">Login/Sign Up</button>
-         </div>
-        
-        <nav id="socials">
-            <a href="#"><img src="assets/facebook_24.png" alt="Facebook" class="icon"></a>
-            <a href="#"><img src="assets/twitter_24.png" alt="Twitter" class="icon"></a>
-            <a href="#"><img src="assets/google_plus_24.png" alt="Google Plus" class="icon"></a>
-        </nav>
 
-        <a href="#"><img src="assets/title.png" alt="Hyrule Castle Town Bazaar" id="logo"></a>
-    </header>
-    <!--Sidebar-->
-    <div id="sidebar">
-        <img src="assets/shopowner.jpg" alt="Shop Owner" id="shopkeep">
-        <h1>Welcome!</h1>
-        <h3>Hyrule News</h3>
-        <p>
-            His Majesty The King announced today that Hyrule's alliance with 
-            the Gerudo Valley had been solidified when Lord Ganondorf pledged 
-            his allegiance to His Majesty.
-        </p>
-        <p>
-            Until this point, little has been known about Gerudo Valley. Any 
-            man who has entered before has been imprisoned by the Gerudo. 
-            Rumours say that Gerudo Town is full of beautiful (and powerful) 
-            women. In fact, legends say that a man is only born once every 
-            hundred years, and that he is destined to be their king as 
-            Ganondorf is now.
-        </p>
-        <p>
-            In other news, travelers have reported an increase in obstacles on 
-            the road to Kakariko village--more specifically, monsters. Anyone 
-            who is planning to leave Hyrule Castle Town is advised to be wary 
-            of Peahats during the day. A guard posted by the drawbridge had 
-            this to say: "It's imperative that travelers reach a safe destination 
-            before nightfall. Stalchilds roam Hyrule field at night." Citizens 
-            are warned that the drawbridge closes every night at dusk before the 
-            stalchilds can enter the town.
-        </p>
+<body>
+    <div class="wrapper">
+        <!--Header-->
+        <header>
+            <div id="account">
+                <button type="button" name="Shopping Cart" id="cart">My Cart (0)</button>
+                <button type="button" name="Login" id="login">Login/Sign Up</button>
+            </div>
+
+            <nav id="socials">
+                <a href="#"><img src="assets/facebook_24.png" alt="Facebook" class="icon"></a>
+                <a href="#"><img src="assets/twitter_24.png" alt="Twitter" class="icon"></a>
+                <a href="#"><img src="assets/google_plus_24.png" alt="Google Plus" class="icon"></a>
+            </nav>
+
+            <a href="#"><img src="assets/title.png" alt="Hyrule Castle Town Bazaar" id="logo"></a>
+        </header>
+        <!--Sidebar-->
+        <div id="sidebar">
+            <img src="assets/shopowner.jpg" alt="Shop Owner" id="shopkeep">
+            <h1>Welcome!</h1>
+            <h3>Hyrule News</h3>
+            <p>
+                His Majesty The King announced today that Hyrule's alliance with
+                the Gerudo Valley had been solidified when Lord Ganondorf pledged
+                his allegiance to His Majesty.
+            </p>
+            <p>
+                Until this point, little has been known about Gerudo Valley. Any
+                man who has entered before has been imprisoned by the Gerudo.
+                Rumours say that Gerudo Town is full of beautiful (and powerful)
+                women. In fact, legends say that a man is only born once every
+                hundred years, and that he is destined to be their king as
+                Ganondorf is now.
+            </p>
+            <p>
+                In other news, travelers have reported an increase in obstacles on
+                the road to Kakariko village--more specifically, monsters. Anyone
+                who is planning to leave Hyrule Castle Town is advised to be wary
+                of Peahats during the day. A guard posted by the drawbridge had
+                this to say: "It's imperative that travelers reach a safe destination
+                before nightfall. Stalchilds roam Hyrule field at night." Citizens
+                are warned that the drawbridge closes every night at dusk before the
+                stalchilds can enter the town.
+            </p>
+        </div>
+        <!--Supplies-->
+        <div class="supplies">
+            <div class=shopitem>
+                <img src="assets/redpotion.jpg" alt="Red Potion" class="itemphoto">
+                <h4>Red Potion - 30 Rupees</h4>
+                <p>A single-dose potion which will surely heal the drinker to full health.</p>
+            </div>
+            <div class="shopitem">
+                <img src="assets/greenpotion.jpg" alt="Green Potion" class="itemphoto">
+                <h4>Green Potion - 50 Rupees</h4>
+                <p>A single-dose potion which will surely replenish the drinker's magic.</p>
+            </div>
+            <div class="shopitem">
+                <img src="assets/fairy.jpg" alt="Fairy in a Bottle" class="itemphoto">
+                <h4>Fairy in a Bottle - 100 Rupees</h4>
+                <p>A fairy trapped in a bottle which will revive one who has fallen in battle.</p>
+            </div>
+            <div class="shopitem">
+                <img src="assets/bottlebug.jpg" alt="Bug in a Bottle" class="itemphoto">
+                <h4>Bug in a Bottle - 30 Rupees</h4>
+                <p>A bug trapped in a bottle. It will come in handy, somehow.</p>
+            </div>
+            <div class="morearrow">
+                <a href="#"><img src="assets/morearrow.png" alt="More"></a>
+                <h2>See More Supplies!</h2>
+            </div>
+        </div>
+        <!--Equipment-->
+        <div class="equipment">
+            <div class=shopitem>
+                <img src="assets/bomb.jpg" alt="Bombs" class="itemphoto">
+                <h4>Bombs (5) - 35 Rupees</h4>
+                <p>An explosive device which can clear debris and be used as a weapon.</p>
+            </div>
+            <div class="shopitem">
+                <img src="assets/arrows.jpg" alt="Arrows" class="itemphoto">
+                <h4>Arrows (10) - 20 Rupees</h4>
+                <p>Projectiles to be shot from a bow.</p>
+            </div>
+            <div class="shopitem">
+                <img src="assets/hylianshield.jpg" alt="Hylian Shield" class="itemphoto">
+                <h4>Hylian Shield - 80 Rupees</h4>
+                <p>A heavy knight's shield which can deflect flame-based attacks.</p>
+            </div>
+            <div class="shopitem">
+                <img src="assets/dekunut.jpg" alt="Deku Nuts" class="itemphoto">
+                <h4>Deku Nuts (5) - 15 Rupees</h4>
+                <p>A strange nut that can be thrown to stun an enemy.</p>
+            </div>
+            <div class="morearrow">
+                <a href="#"><img src="assets/morearrow.png" alt="More"></a>
+                <h2>See More Equpiment!</h2>
+            </div>
+        </div>
+        <!--Footer-->
+        <footer class="footer">
+            &copy; 2021 | Designed by Catie
+        </footer>
     </div>
-    <!--Supplies-->
-    <div class="supplies">
-        <div class=shopitem>
-            <img src="assets/redpotion.jpg" alt="Red Potion" class="itemphoto">
-            <h4>Red Potion - 30 Rupees</h4>
-            <p>A single-dose potion which will surely heal the drinker to full health.</p>
-        </div>
-        <div class="shopitem">
-            <img src="assets/greenpotion.jpg" alt="Green Potion" class="itemphoto">
-            <h4>Green Potion - 50 Rupees</h4>
-            <p>A single-dose potion which will surely replenish the drinker's magic.</p>
-        </div>
-        <div class="shopitem">
-            <img src="assets/fairy.jpg" alt="Fairy in a Bottle" class="itemphoto">
-            <h4>Fairy in a Bottle - 100 Rupees</h4>
-            <p>A fairy trapped in a bottle which will revive one who has fallen in battle.</p>
-        </div>
-        <div class="shopitem">
-            <img src="assets/bottlebug.jpg" alt="Bug in a Bottle" class="itemphoto">
-            <h4>Bug in a Bottle - 30 Rupees</h4>
-            <p>A bug trapped in a bottle. It will come in handy, somehow.</p>
-        </div>
-        <div class="morearrow">
-            <a href="#"><img src="assets/morearrow.png" alt="More"></a>
-            <h2>See More Supplies!</h2>
-        </div>
-    </div>
-    <!--Equipment-->
-    <div class="equipment">
-        <div class=shopitem>
-            <img src="assets/bomb.jpg" alt="Bombs" class="itemphoto">
-            <h4>Bombs (5) - 35 Rupees</h4>
-            <p>An explosive device which can clear debris and be used as a weapon.</p>
-        </div>
-        <div class="shopitem">
-            <img src="assets/arrows.jpg" alt="Arrows" class="itemphoto">
-            <h4>Arrows (10) - 20 Rupees</h4>
-            <p>Projectiles to be shot from a bow.</p>
-        </div>
-        <div class="shopitem">
-            <img src="assets/hylianshield.jpg" alt="Hylian Shield" class="itemphoto">
-            <h4>Hylian Shield - 80 Rupees</h4>
-            <p>A heavy knight's shield which can deflect flame-based attacks.</p>
-        </div>
-        <div class="shopitem">
-            <img src="assets/dekunut.jpg" alt="Deku Nuts" class="itemphoto">
-            <h4>Deku Nuts (5) - 15 Rupees</h4>
-            <p>A strange nut that can be thrown to stun an enemy.</p>
-        </div>
-        <div class="morearrow">
-            <a href="#"><img src="assets/morearrow.png" alt="More"></a>
-            <h2>See More Equpiment!</h2>
-        </div>
-    </div>
-    <!--Footer-->
-    <footer>
-        <span>&copy;2021</span>
-        <ul>
-            <li><a href="#">Sitemap</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Use</a></li>
-            <li>Website by Catie</li>
-        </ul>
-    </footer>
 </body>
+
 </html>
