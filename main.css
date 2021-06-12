@@ -52,10 +52,10 @@ button {
     border: outset;
     width: 500px;
     height: 800px;
-    float: right;
+    right: 10px;
     top: 250px;
     background: url(assets/parchment.jpg);
-    position: relative; 
+    position: absolute; 
     align-items: center;
     padding: 25px;
 }
@@ -74,7 +74,11 @@ h3 {
 p {
     font-family: 'Courier New', Courier, monospace;
 }
-
+.storecontent {
+    padding: 2.5rem;
+    height: 825px;
+    width: 1300px;
+}
 .supplies {
     border: outset;
     background: url(assets/parchment.jpg);
@@ -90,7 +94,8 @@ p {
     width: 1300px;
     height: 400px;
     position: relative;
-    top: 270px;
+    top: 240px;
+    left: -40px;
 }
 
 .shopitem {
@@ -128,7 +133,9 @@ h2 {
     background-color: lightyellow;
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     height: 2.5rem;
     text-align: center;
+    padding-bottom: -2.5rem;
 }
